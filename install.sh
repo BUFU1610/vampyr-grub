@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-THEME='poly-dark'
+THEME='vampyr-grub'
 LANG='English'
 
 # Change to temporary directory
@@ -51,7 +51,7 @@ if [[ -e /etc/os-release ]]; then
 
     source /etc/os-release
 
-    if [[ "$ID" =~ (debian|ubuntu|solus) || \
+    if [[ "$ID" =~ (debian|ubuntu|solus|void) || \
           "$ID_LIKE" =~ (debian|ubuntu) ]]; then
 
         UPDATE_GRUB='update-grub'
@@ -81,7 +81,7 @@ if [[ -e /etc/os-release ]]; then
 fi
 
 echo 'Fetching theme archive'
-wget -O ${THEME}.zip https://github.com/shvchk/${THEME}/archive/master.zip
+wget -O ${THEME}.zip https://github.com/BUFU1610/${THEME}/archive/master.zip
 
 echo 'Unpacking theme'
 unzip ${THEME}.zip
