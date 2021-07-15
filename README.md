@@ -1,4 +1,4 @@
-## Poly dark GRUB theme
+## Vampyr GRUB theme
 
 Supported languages: Chinese (simplified), English, French, German, Italian, Norwegian, Portuguese, Russian, Spanish, Ukrainian
 
@@ -12,7 +12,7 @@ Screenshot is intentionally low res to fit GitHub UI. See also: [1280×720](http
 
 1. **Secure way:**
     - Download install script:  
-    `wget -P /tmp https://github.com/shvchk/poly-dark/raw/master/install.sh`
+    `wget -P /tmp https://github.com/BUFU1610/vampyr-grub/raw/master/install.sh`
     - Review install script at `/tmp/install.sh`
     - Run it: `bash /tmp/install.sh`
 
@@ -20,8 +20,3 @@ Screenshot is intentionally low res to fit GitHub UI. See also: [1280×720](http
     `wget -O - https://github.com/shvchk/poly-dark/raw/master/install.sh | bash`
 
 ---
-
-### See also
-
-- [Poly light GRUB theme](https://github.com/shvchk/poly-light)
-- [Fallout GRUB theme](https://github.com/shvchk/fallout-grub-theme)
